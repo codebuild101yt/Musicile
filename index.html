@@ -70,7 +70,7 @@
                 const button = document.getElementById('play-btn');
                 button.style.display = 'none';
 
-                const response = await fetch('http://localhost:3000/daily-song');
+                const response = await fetch('https://main.d20uqa5x8emeso.amplifyapp.com:3000/daily-song');
                 if (!response.ok) {
                     throw new Error('Failed to fetch song');
                 }
